@@ -1,0 +1,36 @@
+
+table{
+    text-transform: capitalize;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    
+}
+table tr td input{
+    border-color: blue;
+    border-radius: 5px;
+    
+}
+#hesapla{
+    background-color: green;
+    cursor: pointer;
+    text-transform: capitalize;
+    height: 30px;
+    font-size: 18px;
+    
+}
+#temizle{
+    background-color: red;
+    cursor: pointer;
+    text-transform: capitalize;
+    height: 30px;
+    font-size: 18px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#myForm{
+    height: 90px;
+}

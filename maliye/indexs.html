@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<table>
+  <h3>maliyet hesaplama</h3>
+  <form id="myForm">
+    <tr>
+      <td>eğitmen ücreti: </td>
+      <td><input type="text" id="egitmenUcreti"></td>
+    </tr>
+    <tr>
+      <td>ulaşım:</td>
+      <td><input type="text" id="ulasim"></td>
+    </tr>
+    <tr>
+      <td>konaklama: </td>
+      <td><input type="text" id="konaklama"></td>
+    </tr>
+   
+    <tr>
+      <td>yemek: </td>
+      <td><input type="text" id="yemek"></td>
+    </tr>
+    <tr>
+      <td>sertifika: </td>
+      <td><input type="text" id="sertifika"></td>
+    </tr>
+    <tr>
+      <td>kargo: </td>
+      <td><input type="text" id="kargo"></td>
+    </tr>
+    <tr>
+      <td>yüzüdelikGir: </td>
+      <td><input type="number" id="yüzüdelikGir" ></td>
+    </tr>
+    <tr>
+      <td>toplam gider: </td>
+      <td><input type="text" id="toplamGider" readonly></td>
+    </tr>
+    <tr>
+      <td>% lik kar: </td>
+      <td><input type="text" id="likKar" readonly></td> 
+    </tr>
+    <tr>
+      <td>kurumlar vergisi: </td>
+      <td><input type="text" id="kurumlarVergisi" readonly></td>
+    </tr>
+    <tr>
+      <td>kar: </td>
+      <td><input type="text" id="kar" readonly></td>
+    </tr>
+    <tr>
+      <td>genel kar: </td>
+      <td><input type="text" id="genelKar" readonly></td>
+    </tr>
+    <tr>
+      <td>damga vergisi: </td>
+      <td><input type="text" id="damgaVergisi" readonly></td>
+    </tr>
+    <tr>
+      <td>genel sonuç(DVEH): </td>
+      <td><input type="text" id="genelSonuc" readonly></td>
+    </tr>
+    <tr>
+      <td><input type="button" id="hesapla" value="hesapla" onclick="formuHesapla()"></td>
+      <td><input type="button" id="temizle" value="temizle" onclick="formuTemizle()"></td>
+    </tr>
+  </form>
+</table>
+      
+
+
+      <script src="style.js"></script>
+</body>
+</html>
